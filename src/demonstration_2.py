@@ -32,4 +32,19 @@ Return:
 """
 def lambda_school(n):
     # Your code here
+    def lambda_school(n):
+        # Your code here
+        new_list = []
+        for i in range(1, n + 1):
+            if i % 15 == 0:
+                new_list.append('LambdaSchool')
+            elif i % 3 == 0:
+                new_list.append('Lambda')
+            elif i % 5 == 0:
+                new_list.append('School')
+            else:
+                new_list.append(str(i))
+        return new_list
+
+    print(lambda_school(15))
 

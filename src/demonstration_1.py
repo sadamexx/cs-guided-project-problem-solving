@@ -12,4 +12,8 @@ return [0, 2].
 """
 def two_sum(nums, target):
     # Your code here
+    # two elements are added, and they need to equal the target
+    # return an array with the indices listed as the solution
+    # how? loop through and add each element with the next one
+    # check to see if the sum is the same as the target
 
